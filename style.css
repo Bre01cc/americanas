@@ -1,5 +1,84 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(115, 118, 121);
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 70px;
+
+}
+
+header {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    height: 150px;
+    width: 70%;
+    background-color: rgb(221, 18, 18);
+}
+
+.logos {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+    /* justify-content: space-between; */
+
+}
+
+.logos img {
+    height: 80%;
+}
+
+.logos input {
+    border-radius: 5px;
+    border: 0;
+    height: 30px;
+    width: 50%;
+}
+.
+
+.info {
+    height: 50px;
+    width: 100%;
+    background-color: bisque;
+}
+
+.info-produtos {
+    width: 70%;
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+menu {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+
+
 }
