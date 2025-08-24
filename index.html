@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/7f718ed15d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>americanas</title>
@@ -17,16 +21,21 @@
         <div class="banner">
             <div class="logos">
                 <img src="./img/logo.png" alt="logo-americanas">
-                <input type="text" id="caixa-texto">
+
+                <div class="input-box">
+                    <input type="text" id="caixa-texto">
+                    <i class="fa-solid fa-magnifying-glass icone"></i>
+                </div>
+
                 <div class="icon-texto">
                     <i class="fa-regular fa-circle-user fa-2x icon"></i>
                     <p>
                         olá, faça seu login ou cadastre-se
                     </p>
                 </div>
-                <i class="fa-solid fa-shop fa-2x icon"></i>
-                    <i class="fa-regular fa-heart fa-2x icon"></i>
-                    <i class="fa-solid fa-basket-shopping fa-2x icon"></i>
+                <i class="fa-solid fa-shop icon"></i>
+                <i class="fa-regular fa-heart icon"></i>
+                <i class="fa-solid fa-basket-shopping icon"></i>
                 <!-- <div class="icons">
                     
                 </div> -->
@@ -34,7 +43,8 @@
             </div>
             <div class="info">
                 <div class="cep">
-                    <a href="#">Informe seu cep</a>
+                    <i class="fa-solid fa-location-dot icone"></i>
+                    <a href="#">Informe seu CEP</a>
                 </div>
                 <div class="links">
                     <menu>
@@ -61,15 +71,18 @@
                         </li>
                     </menu>
                 </div>
-               
+
             </div>
         </div>
         <div class="info-produtos">
-            <menu>
-                <li>
+            <div class="local">
+                 <li>
                     <i class="fa-solid fa-bars"></i>
                     <a href="#">todos os departamentos</a>
                 </li>
+            </div>
+            <menu>
+               
                 <li>
                     <a href="#">mercado</a>
                 </li>
@@ -91,13 +104,21 @@
                 <li>
                     <a href="#">móveis</a>
                 </li>
-                <li>
+            </menu>
+            <div class="mercado">
+                 <li>
                     <a href="#">americanas mercado</a>
                 </li>
-            </menu>
+            </div>
         </div>
     </header>
-    <main></main>
+    <main>
+        <div class="propaganda">
+            <div class="baixar">
+
+            </div>
+        </div>
+    </main>
     <footer></footer>
 </body>
 
